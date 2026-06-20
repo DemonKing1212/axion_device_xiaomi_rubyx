@@ -228,6 +228,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    DeviceAsWebcamOverlayRuby \
     FrameworksResOverlayRuby \
     FrameworksResOverlayRubyPlus \
     FrameworksResOverlayRubyProPlus \
@@ -251,6 +252,9 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+PRODUCT_PACKAGES += \
+    DeviceAsWebcam
 
 # Permissions
 PRODUCT_COPY_FILES += \
