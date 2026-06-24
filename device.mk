@@ -420,15 +420,3 @@ PRODUCT_COPY_FILES += \
 # Inherit the proprietary files
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-rubyx/device.mk)
 $(call inherit-product, vendor/xiaomi/rubyx/rubyx-vendor.mk)
-
-# Axion Stuff
-PERF_GOV_SUPPORTED := true
-PERF_DEFAULT_GOV := schedutil
-PERF_ANIM_OVERRIDE := true
-TORCH_STR_SUPPORTED := true
-TARGET_NEEDS_DOZE_FIX := true
-TARGET_DOZE_TAP_PULSE_SUPPORTED := true
-TARGET_DOZE_DOUBLE_TAP_PULSE_SUPPORTED := true
-TARGET_DOZE_PICKUP_PULSE_SUPPORTED := true
-TARGET_DOZE_SIDE_FPS_PULSE_SUPPORTED := true
-TARGET_SUPPORTED_REFRESH_RATES := 60,120
