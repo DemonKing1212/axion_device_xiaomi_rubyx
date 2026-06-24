@@ -138,6 +138,9 @@ $(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,tr
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+PRODUCT_PACKAGES += \
+    DeviceAsWebcam
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
